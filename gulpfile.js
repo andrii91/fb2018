@@ -34,7 +34,7 @@ gulp.task('js', function() {
 });
 gulp.task('js_v', function() {
     gulp.src([
-            'src/js/vendor/jquery.js',
+            // 'src/js/vendor/jquery.js',
             // 'src/js/vendor/bootstrap.min.js',
             // 'src/js/vendor/inputmask.js',
             // 'src/js/vendor/jquery.inputmask.js',

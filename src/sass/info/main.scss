@@ -326,3 +326,41 @@ body {
     bottom: -(58px+37px);
   }
 }
+.thx {
+  .logo-list {
+    text-align: center;
+  }
+  min-height: 100vh;
+  .head-hgroup {
+    h1 {
+      background-image: linear-gradient(-10deg, #e73535 0%, #ff6d25 100%);
+      font-family: Futura;
+      font-size: 36px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      line-height: 1;
+      margin-top: 45px;
+    }
+    h3 {
+      color: #ffffff;
+      font-family: "Proxima Nova";
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: inherit;
+      line-height: 1;
+      margin-bottom: 44px;
+    }
+  }
+  .reg-btn {
+    display: inline-block;
+    margin-bottom: 4vh;
+    max-width: 490px;
+    text-align: center;
+    padding: 17px 21px 16px;
+    line-height: 1;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
