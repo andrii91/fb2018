@@ -1,0 +1,112 @@
+& {
+  section,
+  header,
+  footer {
+    overflow-x: hidden;
+  }
+  .head {
+    padding-top: 100px;
+    background: linear-gradient(to top, #000 0, transparent 130%), url(../images/img-3043-2.png), #000;
+    background-position-x: 35%;
+    text-align: center;
+    &.footer {
+      padding-top: 270px;
+    }
+  }
+  .head-menu {
+    li {
+      display: block;
+      max-width: 100%;
+      a {
+        font-size: 12px;
+        &:first-child {
+          font-size: 16px;
+        }
+      }
+      img {
+        max-width: 135px;
+      }
+    }
+  }
+  .head-hgroup {
+    h4,
+    h3 {
+      font-size: 16px;
+    }
+    h1 {
+      letter-spacing: 0;
+      font-size: 30px;
+    }
+  }
+  .head-list {
+    text-align: left;
+    li {
+      line-height: 1;
+    }
+  }
+  .logo-list li {
+    margin: 10px;
+  }
+  .program {
+    padding: 50px 0;
+    img {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  .program-title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .program-info br {
+    display: none;
+  }
+  .necessarily-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .necessarily-box p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .speaker {
+    padding: 50px 0;
+    background: #000;
+  }
+  .speaker-hgroup {
+    text-align: center;
+    h2,
+    h5 {
+      font-size: 20px;
+    }
+  }
+  .speaker .head-list {
+    margin: 20px 0;
+  }
+  .speaker-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .logo-list {
+    margin-top: 30px;
+  }
+  .bonus {
+    padding: 50px 0;
+    text-align: center;
+    img {
+      width: 100%;
+    }
+  }
+  .bonus-info {
+    &:before,
+    br {
+      display: none;
+    }
+  }
+  .bonus-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}

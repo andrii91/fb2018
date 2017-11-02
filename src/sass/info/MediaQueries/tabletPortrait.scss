@@ -1,0 +1,30 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+  & {
+    .program-title {
+      text-align: center;
+    }
+    .speaker {
+      background: url(../images/img-3243-2.png), #000;
+      background-repeat: no-repeat;
+      background-position: 240% bottom;
+    }
+    .bonus {
+      text-align: left;
+    }
+    .bonus-info {
+      &:before {
+        display: block;
+      }
+    }
+    .bonus-title {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .head {
+      text-align: left
+    }
+  }
+}
