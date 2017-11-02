@@ -5,7 +5,7 @@
     overflow-x: hidden;
   }
   .head {
-    padding-top: 100px;
+    padding-top: 30px;
     background: linear-gradient(to top, #000 0, transparent 130%), url(../images/img-3043-2.png), #000;
     background-position-x: 35%;
     text-align: center;
@@ -15,6 +15,7 @@
     }
   }
   .head-menu {
+    margin-bottom: 140px;
     li {
       display: block;
       max-width: 100%;
@@ -50,6 +51,12 @@
   }
   .program {
     padding: 50px 0;
+    .col-lg-2 {
+      img {
+        max-width: 30px;
+        margin-bottom: 10px;
+      }
+    }
     img {
       width: 100%;
       margin-left: 0;

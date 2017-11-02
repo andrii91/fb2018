@@ -4,6 +4,9 @@
     @import '../mobile';
 
     & {
-      
+      .speaker {
+    padding: 50px 0;
+    background: #000;
+  }
     }
 }
